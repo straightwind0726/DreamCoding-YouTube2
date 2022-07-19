@@ -177,3 +177,41 @@ header .header_btn li {
 .profile_right {
     color: var(--red-color);
 }
+
+.upNext {
+    margin: 8px var(--size-padding);
+}
+
+.upnext_title {
+    color: var(--grey-dark-color);
+    margin-bottom: 8px;
+}
+
+.upnext_contents .content {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--size-padding) 0;
+}
+
+.upnext_img {
+    margin-right: 8px;
+}
+
+.upnext_description {
+    margin-right: calc(var(--size-padding) * 2);
+}
+
+.upnext_description .grey {
+    margin-top: 8px;
+    color: var(--grey-dark-color);
+    font-size: var(--font-small);
+}
+
+.upnext_btn {
+    border: none;
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+    height: 18px;
+    padding-top: 4px;
+}
